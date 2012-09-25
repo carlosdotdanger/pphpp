@@ -1,0 +1,12 @@
+{application, pphpp,
+ [
+  {description, "Persitent PHP Port"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { pphpp_app, []}},
+  {env, []}
+ ]}.
